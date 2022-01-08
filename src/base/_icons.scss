@@ -16,20 +16,20 @@
 // My Account
 @include icon-normal(
   MyAccount,
-  var(--SeIc-my-account)
+  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='my_account' d='M2,4.222l0,15.556c0,1.222 0.989,2.222 2.222,2.222l15.556,-0c1.222,-0 2.222,-1 2.222,-2.222l-0,-15.556c-0,-1.222 -1,-2.222 -2.222,-2.222l-15.556,-0c-1.233,-0 -2.222,1 -2.222,2.222Zm13.333,4.445c0,1.844 -1.489,3.333 -3.333,3.333c-1.844,-0 -3.333,-1.489 -3.333,-3.333c-0,-1.845 1.489,-3.334 3.333,-3.334c1.844,0 3.333,1.489 3.333,3.334Zm-10,8.889c0,-2.223 4.445,-3.445 6.667,-3.445c2.222,0 6.667,1.222 6.667,3.445l-0,1.111l-13.334,-0l0,-1.111Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 );
 
 // User Profile
 @include icon-normal(
   ProfileCustomization,
-  var(--SeIc-user-profile)
-  );
+  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M19.292,9.831l0.649,-0.647c1.412,-1.412 1.412,-3.711 -0,-5.125c-1.413,-1.412 -3.713,-1.412 -5.125,0l-0.647,0.648l5.123,5.124Zm-6.397,-3.853l-7.713,7.715l5.125,5.123l7.712,-7.715l-5.124,-5.123Zm-8.779,14.996l4.641,-1.16l-4.573,-4.573l-1.16,4.642c-0.077,0.306 0.013,0.631 0.236,0.854c0.224,0.223 0.549,0.312 0.856,0.237Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+);
 
 // Privacy & Safety
 @include icon-normal(
   PrivacynSafety,
-  var(--SeIc-privacy-n-safety)
-  );
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M11.19 1.36l-7 3.11C3.47 4.79 3 5.51 3 6.3V11c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V6.3c0-.79-.47-1.51-1.19-1.83l-7-3.11c-.51-.23-1.11-.23-1.62 0zM12 11.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z'/%3E%3C/svg%3E")
+);
 
 // Authorized Apps
 @include icon-normal(
@@ -174,13 +174,6 @@
   Experiments,
   url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Crect fill='none' height='24' width='24'/%3E%3Cpath d='M20.54,17.73L15,11V5h1c0.55,0,1-0.45,1-1s-0.45-1-1-1H8C7.45,3,7,3.45,7,4s0.45,1,1,1h1v6l-5.54,6.73 C3.14,18.12,3,18.56,3,19c0.01,1.03,0.82,2,2,2H19c1.19,0,2-0.97,2-2C21,18.56,20.86,18.12,20.54,17.73z'/%3E%3C/svg%3E")
 );
-
-
-
-
-
-
-
 
 // Developer Options
 @include icon-normal(
