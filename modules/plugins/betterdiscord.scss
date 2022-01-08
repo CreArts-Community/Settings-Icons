@@ -4,10 +4,11 @@
 
 // Context Icon (Normal)
 @mixin icon-normal($item-id, $url) {
-    .sidebar-nqHbhN .item-3XjbnG[data-item-id="#{$item-id}"]::before {
-    --icon: #{$url} !important;
-    }
+  .sidebar-nqHbhN .item-3XjbnG[data-item-id="#{$item-id}"]::before {
+  --icon: #{$url} !important;
+  z-index: 2;
   }
+}
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ BetterDiscord            ║ Icons                                                                                   ║
