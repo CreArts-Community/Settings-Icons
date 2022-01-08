@@ -1,0 +1,8 @@
+{
+    "name": "CreArts | Settings-Icons",
+    "version": "1.0.0",
+    "author": "CorellanStoma#1996",
+    "description": "Settings-Icons adds icons to the settings menu.",
+    "license": "MIT",
+    "theme": "clients/powercord.css"
+}

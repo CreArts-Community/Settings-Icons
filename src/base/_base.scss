@@ -1,0 +1,36 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║                                                                                         ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.item-3XjbnG {
+  display: flex;
+  align-items: center; 
+}
+
+// Sidebar
+.sidebar-nqHbhN {
+  width: calc(218px + 22px);
+}
+
+// Icons
+.sidebar-nqHbhN .item-3XjbnG::before {
+  content: "";
+  background: currentColor;
+  width: 22px;
+  height: 22px;
+  margin: -2px 6px 0px 0px;
+  -webkit-mask: var(--icon) center/contain no-repeat;
+  mask: var(--icon) center/contain no-repeat;
+  flex-shrink: 0;
+  --icon: var(--SeIc-placeholder);
+}
+
+// Remove
+.dot-2s_oHI,
+.dot-18T0Md {
+  display: none;
+}
+
+.premiumLabel-V52REm svg {display: none;}
+.icon-3FU6Ir {display: none;}
