@@ -2,11 +2,11 @@
 // ║ Discord Add-on                                                                                                     ║
 // ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣
 // ║ Theme:                   ║ Settings-Icons                                                                          ║
-// ║ Version:                 ║ 1.0.0                                                                                   ║
+// ║ Version:                 ║ 1.0.1                                                                                   ║
 // ║ Author:                  ║ CorellanStoma#1996                                                                      ║
 // ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣
 // ║                                                                                                                    ║
-// ║ Settings-Icons adds icons to the discord Setting menu's.                                                           ║
+// ║ Settings-Icons adds icons to the Discord Settings menu's.                                                          ║
 // ║ This theme was created by CorellanStoma#1996.                                                                      ║
 // ║                                                                                                                    ║
 // ║ If you need support join our Creative Community:                                                                   ║
@@ -23,15 +23,15 @@
 // ║ SRC                      ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-@use "src/source"; // ⚠️ Warning!! Do not disable it!
+@use "src/source"; // ⚠️ Do not touch!
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Plugins                  ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-@use "modules/plugins/powercord"; // ⚠️ Warning!! Do not disable it!
+@use "modules/plugins/powercord"; // ⚠️ Do not touch!
 
-@use "modules/plugins/betterdiscord"; // ⚠️ Warning!! Do not disable it!
+@use "modules/plugins/betterdiscord"; // ⚠️ Do not touch!
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ General                  ║ Here you can make general adjustments.                                                  ║

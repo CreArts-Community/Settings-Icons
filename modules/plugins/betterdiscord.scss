@@ -4,7 +4,14 @@
 
 // Context Icon (Normal)
 @mixin icon-normal($item-id, $url) {
-  .sidebar-nqHbhN .item-3XjbnG[data-item-id="#{$item-id}"]::before {
+  .sidebar-nqHbhN .item-3XjbnG[aria-controls="#{$item-id}"]::before {
+  --icon: #{$url} !important;
+  z-index: 2;
+  }
+}
+
+@mixin icon-extra($item-id, $url) {
+  .sidebar-nqHbhN .item-3XjbnG[aria-controls*="#{$item-id}"]::before {
   --icon: #{$url} !important;
   z-index: 2;
   }
