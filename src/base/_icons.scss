@@ -56,6 +56,9 @@
   discord-nitro-tab,
   url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:serif='http://www.serif.com/' width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg transform='matrix(1.30968,0,0,1.30968,-1.09134,2.41314)'%3E%3Cpath d='M1.84,5.437C2.195,5.437 2.491,5.147 2.491,4.798C2.491,4.45 2.195,4.16 1.84,4.16L1.485,4.16C1.129,4.16 0.833,4.45 0.833,4.798C0.833,5.147 1.129,5.437 1.485,5.437L1.84,5.437ZM15.282,13.157C18.657,11.648 20.078,7.817 18.539,4.624C17.473,2.36 15.223,1.025 12.854,0.909L6.163,0.909C5.571,0.909 5.156,1.374 5.156,1.896C5.156,2.476 5.63,2.883 6.163,2.883L7.88,2.883C8.235,2.883 8.531,3.173 8.531,3.521C8.531,3.869 8.235,4.16 7.88,4.16L3.676,4.16C3.32,4.16 3.024,4.45 3.024,4.798C3.024,5.147 3.32,5.437 3.676,5.437L6.696,5.437C7.051,5.437 7.347,5.727 7.347,6.075C7.347,6.424 7.051,6.714 6.696,6.714L4.801,6.714C4.445,6.714 4.149,7.004 4.149,7.352C4.149,7.701 4.445,7.991 4.801,7.991L6.104,7.991C6.163,8.687 6.34,9.384 6.637,10.022C8.117,13.215 12.025,14.608 15.282,13.157ZM9.222,8.833C8.362,6.998 9.183,4.827 11.055,3.984C12.928,3.141 15.143,3.946 16.002,5.781C16.862,7.617 16.041,9.788 14.169,10.631C12.296,11.473 10.081,10.669 9.222,8.833Z'/%3E%3C/g%3E%3Cg transform='matrix(1.30968,0,0,1.30968,-1.09134,2.41314)'%3E%3Cpath d='M14.039,5.205L15.223,7.178C15.282,7.294 15.282,7.352 15.223,7.468L14.039,9.442C13.979,9.558 13.861,9.558 13.802,9.558L11.492,9.558C11.374,9.558 11.315,9.5 11.255,9.442L10.071,7.468C10.012,7.352 10.012,7.294 10.071,7.178L11.255,5.205C11.315,5.089 11.433,5.089 11.492,5.089L13.802,5.089C13.932,5.089 13.979,5.089 14.039,5.205Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 );
+.sidebar-nqHbhN .item-3XjbnG[aria-controls="discord-nitro-tab"] svg {
+  display: none;
+}
 
 // Boost
 @include icon-normal(
@@ -207,6 +210,10 @@
   url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cg%3E%3Cpath d='M0,0h24v24H0V0z' fill='none'/%3E%3C/g%3E%3Cg%3E%3Cg%3E%3Cpath d='M5,5h6c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h6c0.55,0,1-0.45,1-1v0 c0-0.55-0.45-1-1-1H5V5z'/%3E%3Cpath d='M20.65,11.65l-2.79-2.79C17.54,8.54,17,8.76,17,9.21V11h-7c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h7v1.79 c0,0.45,0.54,0.67,0.85,0.35l2.79-2.79C20.84,12.16,20.84,11.84,20.65,11.65z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 );
 
+.sidebar-nqHbhN .item-3XjbnG[aria-controls="logout-tab"] svg {
+  display: none;
+}
+
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Icons                    ║ Guild & Channels                                                                        ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
@@ -240,6 +247,9 @@
   delete-tab,
   url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='delete' d='M5,6.999l0,12c0,1.102 0.897,2 2,2l10,-0c1.103,-0 2,-0.898 2,-2l0,-12l-14,0Zm6,10.001l-2,0l0,-6l2,0l0,6Zm4,0l-2,0l0,-6l2,0l0,6Zm0,-13.001l0,-1.999l-6,-0l0,1.999l-6,-0l0,2l18,-0l0,-2l-6,-0Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 );
+.sidebar-nqHbhN .item-3XjbnG[aria-controls="delete-tab"] svg {
+  display: none;
+}
 
 // Roles
 @include icon-normal(
