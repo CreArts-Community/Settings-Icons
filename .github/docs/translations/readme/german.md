@@ -50,15 +50,15 @@
 
 ### Table of Contents
 
-⚡ [Erste Schritte](#getting-started)
+⚡ [Erste Schritte](#erste-schritte)
 
 📑 [Installation](#installation)
 
-🎨 [Personalisierung](#customization)
+🎨 [Personalisierung](#personalisierung)
 
 ❓ [Support](#support)
 
-⚖️ [Lizenz](#license)
+⚖️ [Lizenz](#lizenz)
 
 <!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
 <!-- ║ Docs                     ║ Getting Started                                                                         ║ -->
