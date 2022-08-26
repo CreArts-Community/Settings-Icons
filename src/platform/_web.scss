@@ -62,7 +62,7 @@
   .platform-web .sidebar-nqHbhN [aria-label*="使用者設定"] .item-3XjbnG:nth-child(#{$number}):before,
   // Chinese, Korean
   .platform-web .sidebar-nqHbhN [aria-label*="사용자 설정"] .item-3XjbnG:nth-child(#{$number}):before {
-    --icon: #{$url} !important;
+    --icon: #{$url} ;
     z-index: 2;
   }
 }
@@ -127,7 +127,7 @@
   .platform-web .sidebar-nqHbhN [aria-label*="使用者設定"] .item-3XjbnG:nth-last-child(#{$number}):before,
   // Chinese, Korean
   .platform-web .sidebar-nqHbhN [aria-label*="사용자 설정"] .item-3XjbnG:nth-last-child(#{$number}):before {
-    --icon: #{$url} !important;
+    --icon: #{$url};
     z-index: 2;
   }
 }
@@ -204,6 +204,7 @@
 
 // Registered Games
 @include icons-web-top(30, var(--SeIc-icon-registered-games));
+
 
 // Change Log
 @include icons-web-top(32, var(--SeIc-icon-change-log));
