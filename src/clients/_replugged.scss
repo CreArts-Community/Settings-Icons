@@ -1,0 +1,343 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Replugged                ║ Mixin                                                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Settings-Icon (Normal)
+@mixin replugged-normal($item-id, $url) {
+  .powercord .sidebar-nqHbhN .item-3XjbnG[data-item-id="#{$item-id}"]::before {
+    --icon: #{$url} !important;
+    z-index: 2;
+  }
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Replugged                ║ Icons (Settings)                                                                        ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// My Account
+@include replugged-normal(MyAccount, var(--SeIc-icon-my-account));
+
+// Profiles
+@include replugged-normal(ProfileCustomization, var(--SeIc-icon-profiles));
+
+// Privacy & Safety
+@include replugged-normal(PrivacynSafety, var(--SeIc-icon-privacy-n-safety));
+
+// Authorized Apps
+@include replugged-normal(AuthorizedApps, var(--SeIc-icon-authorized-apps));
+
+// Devices
+@include replugged-normal(Sessions, var(--SeIc-icon-devices));
+
+// Connections
+@include replugged-normal(Passport, var(--SeIc-icon-connections));
+
+// Friend Requests
+@include replugged-normal(FriendRequests, var(--SeIc-icon-friend-requests));
+
+// Discord Nitro
+@include replugged-normal(DiscordNitro, var(--SeIc-icon-discord-nitro));
+
+// Server Boost
+@include replugged-normal(NitroServerBoost, var(--SeIc-icon-server-boost));
+
+// Subscriptions
+@include replugged-normal(Subscriptions, var(--SeIc-icon-subscriptions));
+
+// Gift Inventory
+@include replugged-normal(LibraryInventory, var(--SeIc-icon-gift-inventory));
+
+// Billing
+@include replugged-normal(Billing, var(--SeIc-icon-billing));
+
+// Appearance
+@include replugged-normal(Appearance, var(--SeIc-icon-appearance));
+
+// Accessibility
+@include replugged-normal(Accessibility,var(--SeIc-icon-accessibility));
+
+// Voice & Video
+@include replugged-normal(VoicenVideo, var(--SeIc-icon-voice-n-video));
+
+// Text & Images
+@include replugged-normal(TextnImages, var(--SeIc-icon-text-n-images));
+
+// Notifications
+@include replugged-normal(Notifications, var(--SeIc-icon-notifications));
+
+// Keybinds
+@include replugged-normal(Keybinds, var(--SeIc-icon-keybinds));
+
+// Language
+@include replugged-normal(Language, var(--SeIc-icon-language));
+
+// Linux Settings
+@include replugged-normal(Linux, var(--SeIc-icon-linux-settings));
+
+// Windows Settings
+@include replugged-normal(Windows, var(--SeIc-icon-windows-settings));
+
+// Streamer Mode
+@include replugged-normal(StreamerMode, var(--SeIc-icon-streamer-mode));
+
+// Advanced
+@include replugged-normal(Advanced, var(--SeIc-icon-advanced));
+
+// Activity Privacy
+@include replugged-normal(ActivityPrivacy, var(--SeIc-icon-activity-privacy));
+
+// Registered Games
+@include replugged-normal(GameActivity, var(--SeIc-icon-registered-games));
+
+// Game Overlay
+@include replugged-normal(Overlay, var(--SeIc-icon-game-overlay));
+
+// Change Log
+@include replugged-normal(changelog, var(--SeIc-icon-change-log));
+
+// HypeSquad
+@include replugged-normal(HypesquadOnline, var(--SeIc-icon-hypesquad));
+
+// Experiments
+@include replugged-normal(Experiments, var(--SeIc-icon-experiments));
+
+// Developer Options
+@include replugged-normal(DeveloperOptions, var(--SeIc-icon-developer-options));
+
+// Hotspot Options
+@include replugged-normal(HotspotOptions, var(--SeIc-icon-hotspot-options));
+
+// Dismissible Contents
+@include replugged-normal(DismissibleContentOptions, var(--SeIc-icon-dismissible-contents));
+
+// Payment Flow Modals
+@include replugged-normal(PaymentFlowModals, var(--SeIc-icon-payment-flow-modals));
+
+// Log out
+@include replugged-normal(logout, var(--SeIc-icon-logout));
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Replugged                ║ Icons (Guild & Channels)                                                                ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Overview
+@include replugged-normal(OVERVIEW, var(--SeIc-icon-overview));
+
+// Roles
+@include replugged-normal(ROLES, var(--SeIc-icon-roles));
+
+// Emoji
+@include replugged-normal(EMOJI, var(--SeIc-icon-emoji));
+
+// Stickers
+@include replugged-normal(STICKERS, var(--SeIc-icon-stickers));
+
+// Integrations
+@include replugged-normal(INTEGRATIONS, var(--SeIc-icon-integrations));
+
+// Widget
+@include replugged-normal(WIDGET, var(--SeIc-icon-widget));
+
+// Server Template
+@include replugged-normal(GUILD_TEMPLATES, var(--SeIc-icon-server-template));
+
+// Custom Invite Link
+@include replugged-normal(VANITY_URL, var(--SeIc-icon-custom-invite-link));
+
+// Rules Screening
+@include replugged-normal(MEMBER_VERIFICATION, var(--SeIc-icon-rules-screening));
+
+// Safety Setup
+@include replugged-normal(MODERATION, var(--SeIc-icon-safety-setup));
+
+// AutoMod
+@include replugged-normal(GUILD_AUTOMOD, var(--SeIc-icon-auto-mod));
+
+// Audit Log
+@include replugged-normal(
+  AUDIT_LOG, var(--SeIc-icon-audit-log));
+
+// Bans
+@include replugged-normal(
+  BANS, var(--SeIc-icon-bans));
+
+// Overview
+@include replugged-normal(
+  COMMUNITY, var(--SeIc-icon-overview));
+
+// Server Insights
+@include replugged-normal(
+  ANALYTICS, var(--SeIc-icon-analytics));
+
+// Partner Program
+@include replugged-normal(
+  PARTNER, var(--SeIc-icon-partner-program));
+
+// Discovery
+@include replugged-normal(
+  DISCOVERY, var(--SeIc-icon-discovery));
+
+// Welcome Screen
+@include replugged-normal(
+  COMMUNITY_WELCOME, var(--SeIc-icon-welcome-screen));
+
+// Server Boost Status
+@include replugged-normal(
+  GUILD_PREMIUM, var(--SeIc-icon-server-boost-status));
+
+// Members
+@include replugged-normal(
+  MEMBERS, var(--SeIc-icon-members));
+
+// Invites
+@include replugged-normal(
+  INSTANT_INVITES, var(--SeIc-icon-invites));
+
+// Permissons
+@include replugged-normal(
+  PERMISSIONS, var(--SeIc-icon-permissons));
+
+// Delete Channel
+@include replugged-normal(
+  DELETE, var(--SeIc-icon-delete-channel));
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Replugged                ║ Icons (Replugged)                                                                       ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// General Settings
+@include replugged-normal(pc-general, var(--SeIc-icon-general-settings));
+
+// Updater
+@include replugged-normal(pc-updater, var(--SeIc-icon-updater));
+
+// Plugins
+@include replugged-normal(pc-moduleManager-plugins, var(--SeIc-icon-plugins));
+
+// Themes
+@include replugged-normal(pc-moduleManager-themes, var(--SeIc-icon-themes));
+
+// Quick CSS
+@include replugged-normal(pc-moduleManager-css, var(--SeIc-icon-quick-css));
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Replugged                ║ Header                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Order
+.powercord .item-3XjbnG[data-item-id="HypesquadOnline"] {order: -1;}
+.powercord .item-3XjbnG[data-item-id="changelog"] {order: -2;}
+
+// Spacing (Discord)
+.powercord .item-3XjbnG[data-item-id="changelog"] {
+  overflow: visible !important;
+  margin-top: 40px;
+}
+
+// Header (Discord)
+.powercord .item-3XjbnG[data-item-id="changelog"]::after {
+  content: "Discord";
+  position: absolute;
+  top: -35px;
+  left: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: var(--font-display);
+  line-height: 16px;
+  text-transform: var(--SeIc-style-header);
+  color: var(--SeIc-color-header-normal);
+  width: 90%;
+  padding-top: 14px;
+  pointer-events: none;
+}
+
+// Spacing (Discord)
+.powercord .item-3XjbnG[data-item-id="HypesquadOnline"] {
+  overflow: visible !important;
+  margin-bottom: 20px;
+}
+
+// Border (Discord)
+.powercord .item-3XjbnG[data-item-id="HypesquadOnline"]::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid var(--background-modifier-accent);
+  height: 1px;
+  width: 92%;
+  top: 38px;
+  margin-left: 0px;
+}
+
+// Spacing (Plugins)
+.powercord .item-3XjbnG[data-item-id="pc-moduleManager-css"] {
+  overflow: visible !important;
+  margin-bottom: 40px;
+}
+
+// Header (Plugins)
+.powercord .item-3XjbnG[data-item-id="pc-moduleManager-css"]::after {
+  content: "Plugins";
+  position: absolute;
+  bottom: -35px;
+  left: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: var(--font-display);
+  line-height: 16px;
+  text-transform: var(--SeIc-style-header);
+  color: var(  --SeIc-color-header-normal);
+  width: 90%;
+  padding-top: 12px;
+  pointer-events: none;
+  border-top: 1px solid var(--background-modifier-accent) ;
+}
+
+// Spacing (Dev)
+.powercord .item-3XjbnG[data-item-id="Experiments"] {
+  overflow: visible !important;
+  margin-top: 26px;
+}
+
+// Header (Dev)
+.powercord .item-3XjbnG[data-item-id="Experiments"]::after {
+  content: "Dev";
+  position: absolute;
+  top: -35px;
+  left: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: var(--font-display);
+  line-height: 16px;
+  text-transform: var(--SeIc-style-header);
+  color: var(--SeIc-color-header-normal);
+  width: 92%;
+  padding-top: 14px;
+  pointer-events: none;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ Item (Logout)                                                                           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Text (Normal)
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="logout"] {
+  color: var(--SeIc-color-text-logout-normal);
+  background: var(--SeIc-color-background-logout-normal) !important;
+}
+
+// Text (Hover)
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="logout"]:hover {
+  color: var(--SeIc-color-text-logout-hover);
+  background: var(--SeIc-color-background-logout-hover) !important;
+}
+
+// Icon (Normal)
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="logout"]::before {
+  background: var(--SeIc-color-icon-logout-normal);
+}
+
+// Icon (Hover)
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="logout"]:hover::before {
+  background: var(--SeIc-color-icon-logout-hover);
+}
+

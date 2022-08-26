@@ -10,27 +10,119 @@
 
 // Sidebar
 .sidebar-nqHbhN {
-  width: calc(218px + 22px);
+  min-width: calc(218px + var(--SeIc-width-serverlist));
 }
 
-// Icons
+// Remove
+.premiumLabel-3HPvdB svg,
+.tabBarItemContainer-2HdIlr svg,
+.tabBarItemContainer-2HdIlr > div,
+.landingPageTabLink-1dhCqV .textBadge-1fdDPJ {
+  display: none;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ Text & Background                                                                       ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Normal
+.sidebar-nqHbhN .item-3XjbnG {
+  text-transform: var(--SeIc-style-text);
+  background: var(--SeIc-color-background-normal);
+  color: var(--SeIc-color-text-normal);
+}
+
+// Hover
+.sidebar-nqHbhN .item-3XjbnG:hover {
+  color: var(--SeIc-color-text-hover);
+}
+
+// Active
+.sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG {
+  color: var(--SeIc-color-text-active);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ Nitro Background                                                                        ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Nitro Background (Normal)
+.sidebar-nqHbhN .premiumTab-39eQzY,
+.sidebar-nqHbhN .serverBoostTabItem-3QwA3W {
+  background: var(--SeIc-color-background-nitro-normal);
+  color: var(--SeIc-color-text-nitro-normal);
+}
+
+// Nitro Background (Hover)
+.sidebar-nqHbhN .premiumTab-39eQzY:hover,
+.sidebar-nqHbhN .serverBoostTabItem-3QwA3W:hover {
+  background: var(--SeIc-color-background-nitro-hover) !important;
+  color: var(--SeIc-color-text-nitro-hover);
+}
+
+// Nitro Background (Active)
+.sidebar-nqHbhN .premiumTab-39eQzY .selectedBackground-1t6xXq,
+.sidebar-nqHbhN .serverBoostTabItem-3QwA3W.selected-g-kMVV {
+  background: var(--SeIc-color-background-nitro-active) !important;
+  color: var(--SeIc-color-text-nitro-active);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ Nitro Icon                                                                              ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Nitro Icon (Normal)
+.sidebar-nqHbhN .premiumTab-39eQzY.item-3XjbnG::before,
+.sidebar-nqHbhN .serverBoostTabItem-3QwA3W.item-3XjbnG::before  {
+  background: var(--SeIc-color-icon-nitro-normal) !important;
+}
+
+// Nitro Icon (Hover)
+.sidebar-nqHbhN .premiumTab-39eQzY:hover.item-3XjbnG::before,
+.sidebar-nqHbhN .serverBoostTabItem-3QwA3W:hover.item-3XjbnG::before {
+  background: var(--SeIc-color-icon-nitro-hover) !important;
+}
+
+// Nitro Icon (Active)
+.sidebar-nqHbhN .premiumTab-39eQzY.selected-g-kMVV.item-3XjbnG::before,
+.sidebar-nqHbhN .serverBoostTabItem-3QwA3W.selected-g-kMVV.item-3XjbnG::before {
+  background: var(--SeIc-color-icon-nitro-active) !important;
+}
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ Icons                                                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Normal
 .sidebar-nqHbhN .item-3XjbnG::before {
   content: "";
-  background: currentColor;
-  width: 22px;
+  background: var(--SeIc-color-icon-normal);
+  width: 24px;
   height: 22px;
   margin: -2px 6px 0px 0px;
   -webkit-mask: var(--icon) center/contain no-repeat;
   mask: var(--icon) center/contain no-repeat;
   flex-shrink: 0;
-  --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cg%3E%3Crect fill='none' height='24' width='24'/%3E%3Cpath d='M20,6h-8l-1.41-1.41C10.21,4.21,9.7,4,9.17,4H4C2.9,4,2.01,4.9,2.01,6L2,18c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V8 C22,6.9,21.1,6,20,6z M14,16H6v-2h8V16z M18,12H6v-2h12V12z'/%3E%3C/g%3E%3C/svg%3E");
+  --icon: var(--SeIc-icon-placeholder);
 }
 
-// Remove
-.dot-2s_oHI,
-.dot-18T0Md {
-  display: none;
+// Hover
+.sidebar-nqHbhN .item-3XjbnG:hover::before {
+  background: var(--SeIc-color-icon-hover);
 }
 
-.premiumLabel-V52REm svg {display: none;}
-.icon-3FU6Ir {display: none;}
+// Active
+.sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG::before {
+  background: var(--SeIc-color-icon-active);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ Header                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Normal
+.sidebar-nqHbhN .header-2Kx1US {
+  color: var(--SeIc-color-header-normal);
+  text-transform: var(--SeIc-style-header);
+}

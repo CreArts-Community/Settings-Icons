@@ -1,0 +1,221 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Icons                    ║ Mixin (Windows)                                                                         ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Settings-Icons (Windows)
+@mixin icons-win-top($number, $url) {
+  // Danish
+  .platform-win .sidebar-nqHbhN [aria-label*="Brugerindstillinger"] .item-3XjbnG:nth-child(#{$number}):before,
+  // English
+  .platform-win .sidebar-nqHbhN [aria-label*="User Settings"] .item-3XjbnG:nth-child(#{$number}):before,
+  // German
+  .platform-win .sidebar-nqHbhN [aria-label*="Benutzereinstellungen"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Spanish
+  .platform-win .sidebar-nqHbhN [aria-label*="Ajustes de usuario"] .item-3XjbnG:nth-child(#{$number}):before,
+  // French
+  .platform-win .sidebar-nqHbhN [aria-label*="Paramètres utilisateur"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Croatian
+  .platform-win .sidebar-nqHbhN [aria-label*="Korisničke postavke"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Italian
+  .platform-win .sidebar-nqHbhN [aria-label*="Impostazioni utente"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Lithuanian
+  .platform-win .sidebar-nqHbhN [aria-label*="Naudotojo Nustatymai"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Hungarian
+  .platform-win .sidebar-nqHbhN [aria-label*="Felhasználói beállítások"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Dutch
+  .platform-win .sidebar-nqHbhN [aria-label*="Gebruikersinstellingen"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Norwegian
+  .platform-win .sidebar-nqHbhN [aria-label*="Brukerinnstillinger"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Polish
+  .platform-win .sidebar-nqHbhN [aria-label*="Ustawienia użytkownika"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Portuguese, Brazilian
+  .platform-win .sidebar-nqHbhN [aria-label*="Configurações de Usuário"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Romanian
+  .platform-win .sidebar-nqHbhN [aria-label*="Contul meu"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Finnish
+  .platform-win .sidebar-nqHbhN [aria-label*="Käyttäjäasetukset"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Swedish
+  .platform-win .sidebar-nqHbhN [aria-label*="Användarinställningar"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Vietnamese
+  .platform-win .sidebar-nqHbhN [aria-label*="Cài đặt người dùng"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Turkish
+  .platform-win .sidebar-nqHbhN [aria-label*="Kullanıcı Ayarları"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Czech
+  .platform-win .sidebar-nqHbhN [aria-label*="Uživatelská nastavení"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Greek
+  .platform-win .sidebar-nqHbhN [aria-label*="Ρυθμίσεις χρήστη"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Bulgarian
+  .platform-win .sidebar-nqHbhN [aria-label*="Потребителски настройки"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Russian
+  .platform-win .sidebar-nqHbhN [aria-label*="Настройки пользователя"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Ukrainian
+  .platform-win .sidebar-nqHbhN [aria-label*="Користувацькі налаштування"] .item-3XjbnG:nth-child(#{$number}):before,
+  //  hindi
+  .platform-win .sidebar-nqHbhN [aria-label*="यूज़र सेटिंग"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Thai
+  .platform-win .sidebar-nqHbhN [aria-label*="ตั้งค่าผู้ใช้"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Chinese, China
+  .platform-win .sidebar-nqHbhN [aria-label*="用户设置"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Japanese
+  .platform-win .sidebar-nqHbhN [aria-label*="ユーザー設定"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Chinese, Taiwan
+  .platform-win .sidebar-nqHbhN [aria-label*="使用者設定"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Chinese, Korean
+  .platform-win .sidebar-nqHbhN [aria-label*="사용자 설정"] .item-3XjbnG:nth-child(#{$number}):before {
+    --icon: #{$url} !important;
+    z-index: 2;
+  }
+}
+
+// Settings-Icons (Windows)
+@mixin icons-win-bottom($number, $url) {
+  // Danish
+  .platform-win .sidebar-nqHbhN [aria-label*="Brugerindstillinger"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // English
+  .platform-win .sidebar-nqHbhN [aria-label*="User Settings"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // German
+  .platform-win .sidebar-nqHbhN [aria-label*="Benutzereinstellungen"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Spanish
+  .platform-win .sidebar-nqHbhN [aria-label*="Ajustes de usuario"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // French
+  .platform-win .sidebar-nqHbhN [aria-label*="Paramètres utilisateur"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Croatian
+  .platform-win .sidebar-nqHbhN [aria-label*="Korisničke postavke"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Italian
+  .platform-win .sidebar-nqHbhN [aria-label*="Impostazioni utente"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Lithuanian
+  .platform-win .sidebar-nqHbhN [aria-label*="Naudotojo Nustatymai"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Hungarian
+  .platform-win .sidebar-nqHbhN [aria-label*="Felhasználói beállítások"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Dutch
+  .platform-win .sidebar-nqHbhN [aria-label*="Gebruikersinstellingen"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Norwegian
+  .platform-win .sidebar-nqHbhN [aria-label*="Brukerinnstillinger"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Polish
+  .platform-win .sidebar-nqHbhN [aria-label*="Ustawienia użytkownika"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Portuguese, Brazilian
+  .platform-win .sidebar-nqHbhN [aria-label*="Configurações de Usuário"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Romanian
+  .platform-win .sidebar-nqHbhN [aria-label*="Contul meu"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Finnish
+  .platform-win .sidebar-nqHbhN [aria-label*="Käyttäjäasetukset"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Swedish
+  .platform-win .sidebar-nqHbhN [aria-label*="Användarinställningar"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Vietnamese
+  .platform-win .sidebar-nqHbhN [aria-label*="Cài đặt người dùng"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Turkish
+  .platform-win .sidebar-nqHbhN [aria-label*="Kullanıcı Ayarları"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Czech
+  .platform-win .sidebar-nqHbhN [aria-label*="Uživatelská nastavení"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Greek
+  .platform-win .sidebar-nqHbhN [aria-label*="Ρυθμίσεις χρήστη"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Bulgarian
+  .platform-win .sidebar-nqHbhN [aria-label*="Потребителски настройки"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Russian
+  .platform-win .sidebar-nqHbhN [aria-label*="Настройки пользователя"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Ukrainian
+  .platform-win .sidebar-nqHbhN [aria-label*="Користувацькі налаштування"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  //  hindi
+  .platform-win .sidebar-nqHbhN [aria-label*="यूज़र सेटिंग"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Thai
+  .platform-win .sidebar-nqHbhN [aria-label*="ตั้งค่าผู้ใช้"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Chinese, China
+  .platform-win .sidebar-nqHbhN [aria-label*="用户设置"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Japanese
+  .platform-win .sidebar-nqHbhN [aria-label*="ユーザー設定"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Chinese, Taiwan
+  .platform-win .sidebar-nqHbhN [aria-label*="使用者設定"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Chinese, Korean
+  .platform-win .sidebar-nqHbhN [aria-label*="사용자 설정"] .item-3XjbnG:nth-last-child(#{$number}):before {
+    --icon: #{$url} !important;
+    z-index: 2;
+  }
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Icons                    ║ Settings (Windows)                                                                      ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// My Account
+@include icons-win-top(2, var(--SeIc-icon-my-account));
+
+// Profiles
+@include icons-win-top(3, var(--SeIc-icon-profiles));
+
+// Privacy & Safety
+@include icons-win-top(4, var(--SeIc-icon-privacy-n-safety));
+
+// Authorized Apps
+@include icons-win-top(5, var(--SeIc-icon-authorized-apps));
+
+// Devices
+@include icons-win-top(6, var(--SeIc-icon-devices));
+
+// Connections
+@include icons-win-top(7, var(--SeIc-icon-connections));
+
+// Friend Requests
+@include icons-win-top(8, var(--SeIc-icon-friend-requests));
+
+// Discord Nitro
+@include icons-win-top(11, var(--SeIc-icon-discord-nitro));
+
+// Server Boost
+@include icons-win-top(12, var(--SeIc-icon-server-boost));
+
+// Subscriptions
+@include icons-win-top(13, var(--SeIc-icon-subscriptions));
+
+// Gift Inventory
+@include icons-win-top(14, var(--SeIc-icon-gift-inventory));
+
+// Billing
+@include icons-win-top(15, var(--SeIc-icon-billing));
+
+// Appearance
+@include icons-win-top(18, var(--SeIc-icon-appearance));
+
+// Accessibility
+@include icons-win-top(19,var(--SeIc-icon-accessibility));
+
+// Voice & Video
+@include icons-win-top(20, var(--SeIc-icon-voice-n-video));
+
+// Text & Images
+@include icons-win-top(21, var(--SeIc-icon-text-n-images));
+
+// Notifications
+@include icons-win-top(22, var(--SeIc-icon-notifications));
+
+// Keybinds
+@include icons-win-top(23, var(--SeIc-icon-keybinds));
+
+// Language
+@include icons-win-top(24, var(--SeIc-icon-language));
+
+// System Settings
+@include icons-win-top(25, var(--SeIc-icon-windows-settings));
+
+// Streamer Mode
+@include icons-win-top(26, var(--SeIc-icon-streamer-mode));
+
+// Advanced
+@include icons-win-top(27, var(--SeIc-icon-advanced));
+
+// Activity Privacy
+@include icons-win-top(30, var(--SeIc-icon-activity-privacy));
+
+// Registered Games
+@include icons-win-top(31, var(--SeIc-icon-registered-games));
+
+// Game Overlay
+@include icons-win-top(32, var(--SeIc-icon-game-overlay));
+
+// Change Log
+@include icons-win-top(34, var(--SeIc-icon-change-log));
+
+// HypeSquad
+@include icons-win-top(35, var(--SeIc-icon-hypesquad));
+
+// Log out
+@include icons-win-bottom(4, var(--SeIc-icon-logout));

@@ -1,8 +1,8 @@
 {
-    "name": "CreArts | Settings-Icons",
-    "version": "1.0.1",
-    "author": "CorellanStoma#1996",
-    "description": "Settings-Icons adds icons to the Discord Settings menu's.",
-    "license": "MIT",
-    "theme": "clients/powercord.css"
+  "name": "CreArts｜Settings-Icons",
+  "version": "1.1.0",
+  "author": "CorellanStoma#1996",
+  "description": "Settings-Icons adds icons to the Discord Settings menu's.",
+  "license": "MIT",
+  "theme": "clients/settings-icons.theme.css"
 }

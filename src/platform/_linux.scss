@@ -1,0 +1,221 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Icons                    ║ Mixin (Linux)                                                                           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Settings-Icons (Linux)
+@mixin icons-linux-top($number, $url) {
+  // Danish
+  .sidebar-nqHbhN [aria-label*="Brugerindstillinger"] .item-3XjbnG:nth-child(#{$number}):before,
+  // English
+  .sidebar-nqHbhN [aria-label*="User Settings"] .item-3XjbnG:nth-child(#{$number}):before,
+  // German
+  .sidebar-nqHbhN [aria-label*="Benutzereinstellungen"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Spanish
+  .sidebar-nqHbhN [aria-label*="Ajustes de usuario"] .item-3XjbnG:nth-child(#{$number}):before,
+  // French
+  .sidebar-nqHbhN [aria-label*="Paramètres utilisateur"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Croatian
+  .sidebar-nqHbhN [aria-label*="Korisničke postavke"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Italian
+  .sidebar-nqHbhN [aria-label*="Impostazioni utente"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Lithuanian
+  .sidebar-nqHbhN [aria-label*="Naudotojo Nustatymai"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Hungarian
+  .sidebar-nqHbhN [aria-label*="Felhasználói beállítások"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Dutch
+  .sidebar-nqHbhN [aria-label*="Gebruikersinstellingen"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Norwegian
+  .sidebar-nqHbhN [aria-label*="Brukerinnstillinger"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Polish
+  .sidebar-nqHbhN [aria-label*="Ustawienia użytkownika"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Portuguese, Brazilian
+  .sidebar-nqHbhN [aria-label*="Configurações de Usuário"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Romanian
+  .sidebar-nqHbhN [aria-label*="Contul meu"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Finnish
+  .sidebar-nqHbhN [aria-label*="Käyttäjäasetukset"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Swedish
+  .sidebar-nqHbhN [aria-label*="Användarinställningar"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Vietnamese
+  .sidebar-nqHbhN [aria-label*="Cài đặt người dùng"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Turkish
+  .sidebar-nqHbhN [aria-label*="Kullanıcı Ayarları"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Czech
+  .sidebar-nqHbhN [aria-label*="Uživatelská nastavení"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Greek
+  .sidebar-nqHbhN [aria-label*="Ρυθμίσεις χρήστη"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Bulgarian
+  .sidebar-nqHbhN [aria-label*="Потребителски настройки"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Russian
+  .sidebar-nqHbhN [aria-label*="Настройки пользователя"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Ukrainian
+  .sidebar-nqHbhN [aria-label*="Користувацькі налаштування"] .item-3XjbnG:nth-child(#{$number}):before,
+  //  hindi
+  .sidebar-nqHbhN [aria-label*="यूज़र सेटिंग"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Thai
+  .sidebar-nqHbhN [aria-label*="ตั้งค่าผู้ใช้"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Chinese, China
+  .sidebar-nqHbhN [aria-label*="用户设置"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Japanese
+  .sidebar-nqHbhN [aria-label*="ユーザー設定"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Chinese, Taiwan
+  .sidebar-nqHbhN [aria-label*="使用者設定"] .item-3XjbnG:nth-child(#{$number}):before,
+  // Chinese, Korean
+  .sidebar-nqHbhN [aria-label*="사용자 설정"] .item-3XjbnG:nth-child(#{$number}):before {
+    --icon: #{$url} !important;
+    z-index: 2;
+  }
+}
+
+// Settings-Icons (Linux)
+@mixin icons-linux-bottom($number, $url) {
+  // Danish
+  .sidebar-nqHbhN [aria-label*="Brugerindstillinger"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // English
+  .sidebar-nqHbhN [aria-label*="User Settings"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // German
+  .sidebar-nqHbhN [aria-label*="Benutzereinstellungen"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Spanish
+  .sidebar-nqHbhN [aria-label*="Ajustes de usuario"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // French
+  .sidebar-nqHbhN [aria-label*="Paramètres utilisateur"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Croatian
+  .sidebar-nqHbhN [aria-label*="Korisničke postavke"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Italian
+  .sidebar-nqHbhN [aria-label*="Impostazioni utente"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Lithuanian
+  .sidebar-nqHbhN [aria-label*="Naudotojo Nustatymai"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Hungarian
+  .sidebar-nqHbhN [aria-label*="Felhasználói beállítások"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Dutch
+  .sidebar-nqHbhN [aria-label*="Gebruikersinstellingen"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Norwegian
+  .sidebar-nqHbhN [aria-label*="Brukerinnstillinger"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Polish
+  .sidebar-nqHbhN [aria-label*="Ustawienia użytkownika"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Portuguese, Brazilian
+  .sidebar-nqHbhN [aria-label*="Configurações de Usuário"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Romanian
+  .sidebar-nqHbhN [aria-label*="Contul meu"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Finnish
+  .sidebar-nqHbhN [aria-label*="Käyttäjäasetukset"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Swedish
+  .sidebar-nqHbhN [aria-label*="Användarinställningar"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Vietnamese
+  .sidebar-nqHbhN [aria-label*="Cài đặt người dùng"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Turkish
+  .sidebar-nqHbhN [aria-label*="Kullanıcı Ayarları"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Czech
+  .sidebar-nqHbhN [aria-label*="Uživatelská nastavení"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Greek
+  .sidebar-nqHbhN [aria-label*="Ρυθμίσεις χρήστη"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Bulgarian
+  .sidebar-nqHbhN [aria-label*="Потребителски настройки"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Russian
+  .sidebar-nqHbhN [aria-label*="Настройки пользователя"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Ukrainian
+  .sidebar-nqHbhN [aria-label*="Користувацькі налаштування"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  //  hindi
+  .sidebar-nqHbhN [aria-label*="यूज़र सेटिंग"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Thai
+  .sidebar-nqHbhN [aria-label*="ตั้งค่าผู้ใช้"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Chinese, China
+  .sidebar-nqHbhN [aria-label*="用户设置"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Japanese
+  .sidebar-nqHbhN [aria-label*="ユーザー設定"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Chinese, Taiwan
+  .sidebar-nqHbhN [aria-label*="使用者設定"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  // Chinese, Korean
+  .sidebar-nqHbhN [aria-label*="사용자 설정"] .item-3XjbnG:nth-last-child(#{$number}):before {
+    --icon: #{$url};
+    z-index: 2;
+  }
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Icons                    ║ Settings (Linux)                                                                        ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// My Account
+@include icons-linux-top(2, var(--SeIc-icon-my-account));
+
+// Profiles
+@include icons-linux-top(3, var(--SeIc-icon-profiles));
+
+// Privacy & Safety
+@include icons-linux-top(4, var(--SeIc-icon-privacy-n-safety));
+
+// Authorized Apps
+@include icons-linux-top(5, var(--SeIc-icon-authorized-apps));
+
+// Devices
+@include icons-linux-top(6, var(--SeIc-icon-devices));
+
+// Connections
+@include icons-linux-top(7, var(--SeIc-icon-connections));
+
+// Friend Requests
+@include icons-linux-top(8, var(--SeIc-icon-friend-requests));
+
+// Discord Nitro
+@include icons-linux-top(11, var(--SeIc-icon-discord-nitro));
+
+// Server Boost
+@include icons-linux-top(12, var(--SeIc-icon-server-boost));
+
+// Subscriptions
+@include icons-linux-top(13, var(--SeIc-icon-subscriptions));
+
+// Gift Inventory
+@include icons-linux-top(14, var(--SeIc-icon-gift-inventory));
+
+// Billing
+@include icons-linux-top(15, var(--SeIc-icon-billing));
+
+// Appearance
+@include icons-linux-top(18, var(--SeIc-icon-appearance));
+
+// Accessibility
+@include icons-linux-top(19,var(--SeIc-icon-accessibility));
+
+// Voice & Video
+@include icons-linux-top(20, var(--SeIc-icon-voice-n-video));
+
+// Text & Images
+@include icons-linux-top(21, var(--SeIc-icon-text-n-images));
+
+// Notifications
+@include icons-linux-top(22, var(--SeIc-icon-notifications));
+
+// Keybinds
+@include icons-linux-top(23, var(--SeIc-icon-keybinds));
+
+// Language
+@include icons-linux-top(24, var(--SeIc-icon-language));
+
+// System Settings
+@include icons-linux-top(25, var(--SeIc-icon-linux-settings));
+
+// Streamer Mode
+@include icons-linux-top(26, var(--SeIc-icon-streamer-mode));
+
+// Advanced
+@include icons-linux-top(27, var(--SeIc-icon-advanced));
+
+// Activity Privacy
+@include icons-linux-top(30, var(--SeIc-icon-activity-privacy));
+
+// Registered Games
+@include icons-linux-top(31, var(--SeIc-icon-registered-games));
+
+// Game Overlay
+@include icons-linux-top(32, var(--SeIc-icon-game-overlay));
+
+// Change Log
+@include icons-linux-top(34, var(--SeIc-icon-change-log));
+
+// HypeSquad
+@include icons-linux-top(35, var(--SeIc-icon-hypesquad));
+
+// Log out
+@include icons-linux-bottom(4, var(--SeIc-icon-logout));

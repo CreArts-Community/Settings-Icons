@@ -1,24 +1,82 @@
+// ╔══════════════════════════╦═════════════════════════════════╗
+// ║ Settings                 ║ VSC Extension Settings          ║
+// ╚══════════════════════════╩═════════════════════════════════╝
+
 {
-    "liveSassCompile.settings.formats":[
-       {
-           "format": "compressed",
-           "extensionName": ".css",
-           "savePath": null
-       }
-   ],
-
-   "liveSassCompile.settings.excludeList": [
-    "/.VSCodeCounter/**",
-    "/.vscode/**",
+  // Plugins | Live Sass Compiler
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.watchOnLaunch": true,
+  "liveSassCompile.settings.autoprefix": ["defaults"],
+  "liveSassCompile.settings.showOutputWindowOn": "Error",
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".css",
+      "savePath": null
+    }
+  ],
+  "liveSassCompile.settings.includeItems": [
     "/dev.scss",
-   ],
+    "/src/source.scss",
+  ],
 
-   "liveSassCompile.settings.generateMap": false,
-   "liveSassCompile.settings.autoprefix": [
-       "defaults"
-   ]
+  // Plugins | Prettier
+  "prettier.printWidth": 124,
+
+  // Plugins | Five Server
+  "fiveServer.navigate": true,
+  "fiveServer.port": 9999,
+
+  // Plugins | Peacock
+  "peacock.keepBadgeColor": false,
+  "peacock.keepForegroundColor": false,
+  "peacock.affectActivityBar": false,
+  "peacock.affectDebuggingStatusBar": false,
+  "peacock.affectEditorGroupBorder": false,
+  "peacock.affectPanelBorder": false,
+  "peacock.affectSashHover": false,
+  "peacock.affectSideBarBorder": false,
+  "peacock.affectStatusAndTitleBorders": false,
+  "peacock.affectStatusBar": true,
+  "peacock.affectTabActiveBorder": false,
+  "peacock.affectTitleBar": true,
+  "peacock.favoriteColors": [
+    {
+      "name": "Red",
+      "value": "#CD0952"
+    },
+    {
+      "name": "Green",
+      "value": "#09CD85"
+    },
+    {
+      "name": "Yellow",
+      "value": "#FFD861"
+    },
+    {
+      "name": "Orange",
+      "value": "#E6715A"
+    },
+    {
+      "name": "Blue",
+      "value": "#6189FF"
+    },
+    {
+      "name": "Purple",
+      "value": "#B061FF"
+    }
+  ],
+  "peacock.color": "#E6715A",
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.activeBackground": "#e6715a",
+    "titleBar.inactiveForeground": "#15202b99",
+    "titleBar.inactiveBackground": "#e6715a99",
+    "statusBar.foreground": "#15202b",
+    "statusBar.background": "#e6715a",
+    "statusBarItem.remoteBackground": "#e6715a",
+    "statusBarItem.remoteForeground": "#15202b",
+    "statusBarItem.hoverBackground": "#df4b2e",
+    "commandCenter.border": "#15202b99"
+  },
 }
-
-// expanded
-// compressed
-// nested
