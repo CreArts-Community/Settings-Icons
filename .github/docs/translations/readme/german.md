@@ -197,7 +197,7 @@ Das Theme-Add-on kann mit einigen [Variablen](.github/docs/translations/variable
 
 Wenn Sie Probleme haben, Bugs gefunden haben oder Wünsche für dieses Theme haben, erstellen Sie einen [Issue](https://github.com/CreArts-Community/Settings-Icons/issues) oder treten Sie unserer [Community](https://discord.gg/8W8E39Z) bei und kommunizieren Sie mit uns.
 
-## License
+## Lizenz
 
 ```
 MIT-Lizenz
