@@ -48,7 +48,7 @@
 <!-- ║ Docs                     ║ Table of Contents                                                                       ║ -->
 <!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
 
-### Table of Contents
+### Inhaltsverzeichnis
 
 ⚡ [Erste Schritte](#erste-schritte)
 
