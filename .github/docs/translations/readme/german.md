@@ -204,15 +204,15 @@ MIT-Lizenz
 
 Urheberrecht (c) 2021-2022 Daniel Klingel
 
-Hiermit wird jeder Person, die eine Kopie dieser Software und der zugehörigen Dokumentationsdateien (die "Software") erhält, die Erlaubnis erteilt, kostenlos
-dieser Software und der zugehörigen Dokumentationsdateien (die "Software") erhält, das Recht
-der Software ohne Einschränkung zu handeln, einschließlich und ohne Einschränkung der Rechte
-zu nutzen, zu kopieren, zu modifizieren, zusammenzuführen, zu veröffentlichen, zu vertreiben, zu unterlizenzieren und/oder zu verkaufen
-der Software zu nutzen, zu kopieren, zu modifizieren, zu veröffentlichen, zu vertreiben, zu unterlizenzieren und/oder zu verkaufen, und
+Hiermit wird jeder Person, die eine Kopie dieser Software und der zugehörigen Dokumentationsdateien (die "Software") erhält,
+die Erlaubnis erteilt, kostenlos dieser Software und der zugehörigen Dokumentationsdateien (die "Software") erhält, das Recht
+der Software ohne Einschränkung zu handeln, einschließlich und ohne Einschränkung der Rechte zu nutzen, zu kopieren,
+zu modifizieren, zusammenzuführen, zu veröffentlichen, zu vertreiben, zu unterlizenzieren und/oder zu verkaufen der Software
+zu nutzen, zu kopieren, zu modifizieren, zu veröffentlichen, zu vertreiben, zu unterlizenzieren und/oder zu verkaufen, und
 zu erlauben, dies zu tun, vorbehaltlich der folgenden Bedingungen:
 
-Der obige Copyright-Hinweis und dieser Genehmigungshinweis müssen in allen Kopien oder wesentlichen Teilen der Software enthalten sein.
-Kopien oder wesentlichen Teilen der Software enthalten sein.
+Der obige Copyright-Hinweis und dieser Genehmigungshinweis müssen in allen Kopien oder
+wesentlichen Teilen der Software enthalten sein. Kopien oder wesentlichen Teilen der Software enthalten sein.
 
 DIE SOFTWARE WIRD OHNE MÄNGELGEWÄHR UND OHNE JEGLICHE AUSDRÜCKLICHE ODER
 STILLSCHWEIGEND, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF DIE GEWÄHRLEISTUNG DER MARKTGÄNGIGKEIT,
