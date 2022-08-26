@@ -50,8 +50,6 @@
 
 ### Table of Contents
 
-⬆️ [Top of Content](#settings-icons)
-
 ⚡ [Getting Started](#getting-started)
 
 📑 [Installation](#installation)
