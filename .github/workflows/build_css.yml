@@ -27,10 +27,10 @@ jobs:
             src/source.css
       - name: Commit Changes
         run: |
-          git config --local user.email 'action@github.com'
+          git config --local user.email "action@github.com"
           git config --local user.name 'GitHub Action'
           git add .
-          git commit -m 'Updates compiled CSS files'
+          git commit -m "Commit msg" || echo
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
