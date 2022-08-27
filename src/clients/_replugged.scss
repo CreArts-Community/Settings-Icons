@@ -274,24 +274,6 @@
   margin-bottom: 40px;
 }
 
-// Header (Plugins)
-.powercord .item-3XjbnG[data-item-id="pc-moduleManager-css"]::after {
-  content: "Plugins";
-  position: absolute;
-  bottom: -35px;
-  left: 10px;
-  font-size: 12px;
-  font-weight: 700;
-  font-family: var(--font-display);
-  line-height: 16px;
-  text-transform: var(--SeIc-style-header);
-  color: var(  --SeIc-color-header-normal);
-  width: 90%;
-  padding-top: 12px;
-  pointer-events: none;
-  border-top: 1px solid var(--background-modifier-accent) ;
-}
-
 // Spacing (Dev)
 .powercord .item-3XjbnG[data-item-id="Experiments"] {
   overflow: visible !important;
