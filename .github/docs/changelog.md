@@ -10,3 +10,6 @@
 * added build css workflow
 * updated readme file
 * updated license file
+
+# v1.1.1
+* updated theme version info

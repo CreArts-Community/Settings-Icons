@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name CreArts｜Settings-Icons
 @description Settings-Icons adds icons to the Discord Settings menu's.
-@version 1.1.0
+@version 1.1.1
 @namespace CorellanStoma#1996
 @author CorellanStoma (https://github.com/CorellanStoma)
 @homepageURL https://github.com/CreArts-Community/Settings-Icons
@@ -14,7 +14,7 @@
 /* ║ Discord Add-on                                                                                                     ║ */
 /* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
 /* ║ Name:                    ║ Settings-Icons                                                                          ║ */
-/* ║ Version:                 ║ 1.1.0                                                                                   ║ */
+/* ║ Version:                 ║ 1.1.1                                                                                   ║ */
 /* ║ Author:                  ║ CorellanStoma#1996                                                                      ║ */
 /* ║ License:                 ║ MIT                                                                                     ║ */
 /* ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣ */
@@ -48,8 +48,8 @@
 
 :root {
   /* Info */
-  --SeIc-info-version: "v1.1.0";
-  --SeIc-info-loaded: "✅";
+  --SeIc-info-version: "v1.1.1";
+  --SeIc-info-loaded: "Settings-Icons:" "\00a0" var(--SeIc-info-version, "") "\a";
 
   /* Width */
   --SeIc-width-serverlist: 38px;
