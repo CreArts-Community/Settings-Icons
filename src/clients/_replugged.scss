@@ -224,14 +224,10 @@
 // ║ Replugged                ║ Header                                                                                  ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-// Order
-.powercord .item-3XjbnG[data-item-id="HypesquadOnline"] {order: -1;}
-.powercord .item-3XjbnG[data-item-id="changelog"] {order: -2;}
-
 // Spacing (Discord)
 .powercord .item-3XjbnG[data-item-id="changelog"] {
   overflow: visible !important;
-  margin-top: 40px;
+  margin-top: 26px;
 }
 
 // Header (Discord)
@@ -246,7 +242,7 @@
   line-height: 16px;
   text-transform: var(--SeIc-style-header);
   color: var(--SeIc-color-header-normal);
-  width: 90%;
+  width: 92%;
   padding-top: 14px;
   pointer-events: none;
 }
@@ -276,7 +272,7 @@
 
 // Header (Dev)
 .powercord .item-3XjbnG[data-item-id="Experiments"]::after {
-  content: "Dev";
+  content: "Development";
   position: absolute;
   top: -35px;
   left: 10px;
