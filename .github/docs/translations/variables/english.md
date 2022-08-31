@@ -60,7 +60,7 @@ With these variables you can change the style of the header or text, you can use
 With these variables you can change the colors of the header in the settings sidebar.
 
 | Variable | Default Value |
-| ------------- | ------------- | ------------- |
+| ------------- | ------------- |
 | ```--SeIc-color-header-normal``` | ```var(--channels-default)``` |
 
 ## Color (Icon)
