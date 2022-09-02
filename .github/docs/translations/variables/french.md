@@ -24,13 +24,14 @@
 <kbd>[<img title="Russian" alt="Russian" src="https://crearts-community.github.io/Assets/languages/russian.png" width="40">](/.github/docs/translations/variables/russian.md)</kbd>
 <kbd>[<img title="Chinese" alt="Chinese" src="https://crearts-community.github.io/Assets/languages/chinese.png" width="40">](/.github/docs/translations/variables/chinese.md)</kbd>
 
-# Variablen
 
-Hier finden Sie eine Liste der verwendeten Variablen des Settings icon Theme Addon.
+# Variables
+
+Vous trouverez ici une liste des variables utilisées de l'icône Paramètres du thème Addon.
 
 ## Info
 
-Diese Variablen werden nicht so sehr für die Anpassung verwendet, sondern geben den Themes die Möglichkeit, die Version anzuzeigen und zu prüfen, ob ein Theme geladen wurde.
+Ces variables ne sont pas tellement utilisées pour la personnalisation, mais donnent aux thèmes la possibilité d'afficher la version et de vérifier si un thème a été chargé.
 
 | Variable | Default Value |
 | ------------- | ------------- |
@@ -38,7 +39,7 @@ Diese Variablen werden nicht so sehr für die Anpassung verwendet, sondern geben
 
 ## Width
 
-Mit dieser Variable können Sie die Seitenleiste der Einstellungen um den eingegebenen Wert erweitern.
+Cette variable vous permet de développer la barre latérale des paramètres en fonction de la valeur saisie.
 
 | Variable | Default Value |
 | ------------- | ------------- |
@@ -46,7 +47,9 @@ Mit dieser Variable können Sie die Seitenleiste der Einstellungen um den eingeg
 
 ## Text Style
 
-Mit diesen Variablen können Sie den Stil der Überschrift oder des Textes ändern, Sie können ``uppercase``, ``lowercase`` oder ``capitalize`` nutzen.
+Avec ces variables, vous pouvez changer le style de l'en-tête ou du texte, vous pouvez utiliser ``uppercase``, ``lowercase`` ou ``capitalize``.
+
+With these variables you can change the style of the header or text, you can use ``uppercase``, ``lowercase`` or ``capitalize``.
 
 | Variable | Default Value
 | ------------- | ------------- |
@@ -55,7 +58,7 @@ Mit diesen Variablen können Sie den Stil der Überschrift oder des Textes ände
 
 ## Color (Header)
 
-Mit diesen Variablen können Sie die Farben der Kopfzeile in der Einstellungsseitenleiste ändern.
+Grâce à ces variables, vous pouvez modifier les couleurs de l'en-tête dans la barre latérale des paramètres.
 
 | Variable | Default Value |
 | ------------- | ------------- |
@@ -63,7 +66,7 @@ Mit diesen Variablen können Sie die Farben der Kopfzeile in der Einstellungssei
 
 ## Color (Icon)
 
-Mit diesen Variablen können Sie die Farben der Icons in der Einstellungsseitenleiste ändern.
+Ces variables vous permettent de modifier les couleurs des icônes dans la barre latérale des paramètres.
 
 | Variable | Default Value |
 | ------------- | ------------- |
@@ -78,7 +81,7 @@ Mit diesen Variablen können Sie die Farben der Icons in der Einstellungsseitenl
 
 ## Color (Text)
 
-Mit diesen Variablen können Sie die Farben des Textes in der Einstellungsseitenleiste ändern.
+Ces variables vous permettent de modifier les couleurs du texte dans la barre latérale des paramètres.
 
 | Variable | Default Value |
 | ------------- | ------------- |
@@ -93,7 +96,7 @@ Mit diesen Variablen können Sie die Farben des Textes in der Einstellungsseiten
 
 ## Color (Background)
 
-Mit diesen Variablen können Sie die Farbe des Hintergrunds in der Seitenleiste Einstellungen anpassen.
+Ces variables vous permettent de personnaliser la couleur de l'arrière-plan de la barre latérale des paramètres.
 
 | Variable | Default Value |
 | ------------- | ------------- |
