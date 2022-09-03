@@ -114,6 +114,10 @@ cd replugged/themes
 ```bash
 git clone https://github.com/CreArts-Community/Settings-Icons.git
 ```
+
+* Ou utilisez ce lien :
+https://replugged.dev/install?url=https://github.com/CreArts-Community/Settings-Icons
+
 </details>
 
 <!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
