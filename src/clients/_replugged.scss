@@ -4,7 +4,7 @@
 
 // Settings-Icon (Normal)
 @mixin replugged-normal($item-id, $url) {
-  .powercord .sidebar-nqHbhN .item-3XjbnG[data-item-id="#{$item-id}"]::before {
+  .powercord .sidebar-nqHbhN .item-2GWPIy[data-item-id="#{$item-id}"]::before {
     --icon: #{$url} !important;
     z-index: 2;
   }
@@ -225,13 +225,13 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Spacing (Discord)
-.powercord .item-3XjbnG[data-item-id="changelog"] {
+.powercord .item-2GWPIy[data-item-id="changelog"] {
   overflow: visible !important;
   margin-top: 26px;
 }
 
 // Header (Discord)
-.powercord .item-3XjbnG[data-item-id="changelog"]::after {
+.powercord .item-2GWPIy[data-item-id="changelog"]::after {
   content: "Discord";
   position: absolute;
   top: -35px;
@@ -248,13 +248,13 @@
 }
 
 // Spacing (Discord)
-.powercord .item-3XjbnG[data-item-id="HypesquadOnline"] {
+.powercord .item-2GWPIy[data-item-id="HypesquadOnline"] {
   overflow: visible !important;
   margin-bottom: 20px;
 }
 
 // Border (Discord)
-.powercord .item-3XjbnG[data-item-id="HypesquadOnline"]::after {
+.powercord .item-2GWPIy[data-item-id="HypesquadOnline"]::after {
   content: "";
   position: absolute;
   border-bottom: 1px solid var(--background-modifier-accent);
@@ -265,13 +265,13 @@
 }
 
 // Spacing (Dev)
-.powercord .item-3XjbnG[data-item-id="Experiments"] {
+.powercord .item-2GWPIy[data-item-id="Experiments"] {
   overflow: visible !important;
   margin-top: 26px;
 }
 
 // Header (Dev)
-.powercord .item-3XjbnG[data-item-id="Experiments"]::after {
+.powercord .item-2GWPIy[data-item-id="Experiments"]::after {
   content: "Development";
   position: absolute;
   top: -35px;
@@ -292,24 +292,24 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Text (Normal)
-.sidebar-nqHbhN .item-3XjbnG[data-item-id="logout"] {
+.sidebar-nqHbhN .item-2GWPIy[data-item-id="logout"] {
   color: var(--SeIc-color-text-logout-normal);
   background: var(--SeIc-color-background-logout-normal) !important;
 }
 
 // Text (Hover)
-.sidebar-nqHbhN .item-3XjbnG[data-item-id="logout"]:hover {
+.sidebar-nqHbhN .item-2GWPIy[data-item-id="logout"]:hover {
   color: var(--SeIc-color-text-logout-hover);
   background: var(--SeIc-color-background-logout-hover) !important;
 }
 
 // Icon (Normal)
-.sidebar-nqHbhN .item-3XjbnG[data-item-id="logout"]::before {
+.sidebar-nqHbhN .item-2GWPIy[data-item-id="logout"]::before {
   background: var(--SeIc-color-icon-logout-normal);
 }
 
 // Icon (Hover)
-.sidebar-nqHbhN .item-3XjbnG[data-item-id="logout"]:hover::before {
+.sidebar-nqHbhN .item-2GWPIy[data-item-id="logout"]:hover::before {
   background: var(--SeIc-color-icon-logout-hover);
 }
 

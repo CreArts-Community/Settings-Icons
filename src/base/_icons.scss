@@ -4,7 +4,7 @@
 
 // Settings-Icon (Normal)
 @mixin icons-normal($item-id, $url) {
-  .sidebar-nqHbhN .item-3XjbnG[aria-controls="#{$item-id}"]::before {
+  .sidebar-nqHbhN .item-2GWPIy[aria-controls="#{$item-id}"]::before {
     --icon: #{$url} !important;
     z-index: 2;
   }
@@ -12,7 +12,7 @@
 
 // Settings-Icon (Extra)
 @mixin icons-extra($item-id, $url) {
-  .sidebar-nqHbhN .item-3XjbnG[aria-controls*="#{$item-id}"]::before {
+  .sidebar-nqHbhN .item-2GWPIy[aria-controls*="#{$item-id}"]::before {
     --icon: #{$url} !important;
     z-index: 2;
   }

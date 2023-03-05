@@ -5,63 +5,63 @@
 // Settings-Icons (Linux)
 @mixin icons-linux-top($number, $url) {
   // Danish
-  .sidebar-nqHbhN [aria-label*="Brugerindstillinger"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Brugerindstillinger"] .item-2GWPIy:nth-child(#{$number}):before,
   // English
-  .sidebar-nqHbhN [aria-label*="User Settings"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="User Settings"] .item-2GWPIy:nth-child(#{$number}):before,
   // German
-  .sidebar-nqHbhN [aria-label*="Benutzereinstellungen"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Benutzereinstellungen"] .item-2GWPIy:nth-child(#{$number}):before,
   // Spanish
-  .sidebar-nqHbhN [aria-label*="Ajustes de usuario"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Ajustes de usuario"] .item-2GWPIy:nth-child(#{$number}):before,
   // French
-  .sidebar-nqHbhN [aria-label*="Paramètres utilisateur"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Paramètres utilisateur"] .item-2GWPIy:nth-child(#{$number}):before,
   // Croatian
-  .sidebar-nqHbhN [aria-label*="Korisničke postavke"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Korisničke postavke"] .item-2GWPIy:nth-child(#{$number}):before,
   // Italian
-  .sidebar-nqHbhN [aria-label*="Impostazioni utente"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Impostazioni utente"] .item-2GWPIy:nth-child(#{$number}):before,
   // Lithuanian
-  .sidebar-nqHbhN [aria-label*="Naudotojo Nustatymai"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Naudotojo Nustatymai"] .item-2GWPIy:nth-child(#{$number}):before,
   // Hungarian
-  .sidebar-nqHbhN [aria-label*="Felhasználói beállítások"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Felhasználói beállítások"] .item-2GWPIy:nth-child(#{$number}):before,
   // Dutch
-  .sidebar-nqHbhN [aria-label*="Gebruikersinstellingen"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Gebruikersinstellingen"] .item-2GWPIy:nth-child(#{$number}):before,
   // Norwegian
-  .sidebar-nqHbhN [aria-label*="Brukerinnstillinger"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Brukerinnstillinger"] .item-2GWPIy:nth-child(#{$number}):before,
   // Polish
-  .sidebar-nqHbhN [aria-label*="Ustawienia użytkownika"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Ustawienia użytkownika"] .item-2GWPIy:nth-child(#{$number}):before,
   // Portuguese, Brazilian
-  .sidebar-nqHbhN [aria-label*="Configurações de Usuário"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Configurações de Usuário"] .item-2GWPIy:nth-child(#{$number}):before,
   // Romanian
-  .sidebar-nqHbhN [aria-label*="Contul meu"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Contul meu"] .item-2GWPIy:nth-child(#{$number}):before,
   // Finnish
-  .sidebar-nqHbhN [aria-label*="Käyttäjäasetukset"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Käyttäjäasetukset"] .item-2GWPIy:nth-child(#{$number}):before,
   // Swedish
-  .sidebar-nqHbhN [aria-label*="Användarinställningar"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Användarinställningar"] .item-2GWPIy:nth-child(#{$number}):before,
   // Vietnamese
-  .sidebar-nqHbhN [aria-label*="Cài đặt người dùng"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Cài đặt người dùng"] .item-2GWPIy:nth-child(#{$number}):before,
   // Turkish
-  .sidebar-nqHbhN [aria-label*="Kullanıcı Ayarları"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Kullanıcı Ayarları"] .item-2GWPIy:nth-child(#{$number}):before,
   // Czech
-  .sidebar-nqHbhN [aria-label*="Uživatelská nastavení"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Uživatelská nastavení"] .item-2GWPIy:nth-child(#{$number}):before,
   // Greek
-  .sidebar-nqHbhN [aria-label*="Ρυθμίσεις χρήστη"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Ρυθμίσεις χρήστη"] .item-2GWPIy:nth-child(#{$number}):before,
   // Bulgarian
-  .sidebar-nqHbhN [aria-label*="Потребителски настройки"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Потребителски настройки"] .item-2GWPIy:nth-child(#{$number}):before,
   // Russian
-  .sidebar-nqHbhN [aria-label*="Настройки пользователя"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Настройки пользователя"] .item-2GWPIy:nth-child(#{$number}):before,
   // Ukrainian
-  .sidebar-nqHbhN [aria-label*="Користувацькі налаштування"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Користувацькі налаштування"] .item-2GWPIy:nth-child(#{$number}):before,
   //  hindi
-  .sidebar-nqHbhN [aria-label*="यूज़र सेटिंग"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="यूज़र सेटिंग"] .item-2GWPIy:nth-child(#{$number}):before,
   // Thai
-  .sidebar-nqHbhN [aria-label*="ตั้งค่าผู้ใช้"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="ตั้งค่าผู้ใช้"] .item-2GWPIy:nth-child(#{$number}):before,
   // Chinese, China
-  .sidebar-nqHbhN [aria-label*="用户设置"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="用户设置"] .item-2GWPIy:nth-child(#{$number}):before,
   // Japanese
-  .sidebar-nqHbhN [aria-label*="ユーザー設定"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="ユーザー設定"] .item-2GWPIy:nth-child(#{$number}):before,
   // Chinese, Taiwan
-  .sidebar-nqHbhN [aria-label*="使用者設定"] .item-3XjbnG:nth-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="使用者設定"] .item-2GWPIy:nth-child(#{$number}):before,
   // Chinese, Korean
-  .sidebar-nqHbhN [aria-label*="사용자 설정"] .item-3XjbnG:nth-child(#{$number}):before {
+  .sidebar-nqHbhN [aria-label*="사용자 설정"] .item-2GWPIy:nth-child(#{$number}):before {
     --icon: #{$url};
     z-index: 2;
   }
@@ -70,63 +70,63 @@
 // Settings-Icons (Linux)
 @mixin icons-linux-bottom($number, $url) {
   // Danish
-  .sidebar-nqHbhN [aria-label*="Brugerindstillinger"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Brugerindstillinger"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // English
-  .sidebar-nqHbhN [aria-label*="User Settings"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="User Settings"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // German
-  .sidebar-nqHbhN [aria-label*="Benutzereinstellungen"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Benutzereinstellungen"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Spanish
-  .sidebar-nqHbhN [aria-label*="Ajustes de usuario"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Ajustes de usuario"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // French
-  .sidebar-nqHbhN [aria-label*="Paramètres utilisateur"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Paramètres utilisateur"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Croatian
-  .sidebar-nqHbhN [aria-label*="Korisničke postavke"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Korisničke postavke"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Italian
-  .sidebar-nqHbhN [aria-label*="Impostazioni utente"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Impostazioni utente"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Lithuanian
-  .sidebar-nqHbhN [aria-label*="Naudotojo Nustatymai"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Naudotojo Nustatymai"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Hungarian
-  .sidebar-nqHbhN [aria-label*="Felhasználói beállítások"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Felhasználói beállítások"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Dutch
-  .sidebar-nqHbhN [aria-label*="Gebruikersinstellingen"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Gebruikersinstellingen"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Norwegian
-  .sidebar-nqHbhN [aria-label*="Brukerinnstillinger"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Brukerinnstillinger"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Polish
-  .sidebar-nqHbhN [aria-label*="Ustawienia użytkownika"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Ustawienia użytkownika"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Portuguese, Brazilian
-  .sidebar-nqHbhN [aria-label*="Configurações de Usuário"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Configurações de Usuário"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Romanian
-  .sidebar-nqHbhN [aria-label*="Contul meu"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Contul meu"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Finnish
-  .sidebar-nqHbhN [aria-label*="Käyttäjäasetukset"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Käyttäjäasetukset"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Swedish
-  .sidebar-nqHbhN [aria-label*="Användarinställningar"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Användarinställningar"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Vietnamese
-  .sidebar-nqHbhN [aria-label*="Cài đặt người dùng"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Cài đặt người dùng"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Turkish
-  .sidebar-nqHbhN [aria-label*="Kullanıcı Ayarları"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Kullanıcı Ayarları"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Czech
-  .sidebar-nqHbhN [aria-label*="Uživatelská nastavení"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Uživatelská nastavení"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Greek
-  .sidebar-nqHbhN [aria-label*="Ρυθμίσεις χρήστη"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Ρυθμίσεις χρήστη"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Bulgarian
-  .sidebar-nqHbhN [aria-label*="Потребителски настройки"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Потребителски настройки"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Russian
-  .sidebar-nqHbhN [aria-label*="Настройки пользователя"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Настройки пользователя"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Ukrainian
-  .sidebar-nqHbhN [aria-label*="Користувацькі налаштування"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="Користувацькі налаштування"] .item-2GWPIy:nth-last-child(#{$number}):before,
   //  hindi
-  .sidebar-nqHbhN [aria-label*="यूज़र सेटिंग"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="यूज़र सेटिंग"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Thai
-  .sidebar-nqHbhN [aria-label*="ตั้งค่าผู้ใช้"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="ตั้งค่าผู้ใช้"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Chinese, China
-  .sidebar-nqHbhN [aria-label*="用户设置"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="用户设置"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Japanese
-  .sidebar-nqHbhN [aria-label*="ユーザー設定"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="ユーザー設定"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Chinese, Taiwan
-  .sidebar-nqHbhN [aria-label*="使用者設定"] .item-3XjbnG:nth-last-child(#{$number}):before,
+  .sidebar-nqHbhN [aria-label*="使用者設定"] .item-2GWPIy:nth-last-child(#{$number}):before,
   // Chinese, Korean
-  .sidebar-nqHbhN [aria-label*="사용자 설정"] .item-3XjbnG:nth-last-child(#{$number}):before {
+  .sidebar-nqHbhN [aria-label*="사용자 설정"] .item-2GWPIy:nth-last-child(#{$number}):before {
     --icon: #{$url};
     z-index: 2;
   }
